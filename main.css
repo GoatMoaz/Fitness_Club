@@ -1,0 +1,184 @@
+#topnav {
+    width: 100%;
+    height: 80px;
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+    background-color: #000000;
+ 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+ }
+
+ .nav-link {
+
+    
+    display: inline-block;
+    width: 350px;
+    height: auto;
+ 
+    color: rgb(0, 0, 0);
+ 
+    /* centering text */
+    text-align: center;    /* horizontally */
+    line-height: 80px;     /* vertically */
+    
+    font: bold;
+ }
+
+ #logo {
+    width: 120px;
+    
+    
+    font-weight: bold;
+ }
+
+ body, html {
+    height: 100%;
+  }
+  
+  #Back_Ground {
+    
+    /* Full height */
+    height: 100%;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+
+  /*  Tables  CSS   Styling*/
+  
+#training_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    
+  }
+  
+  #training_table td, #training_table th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  #training_table td{
+    margin: 50px;
+    
+  }
+  
+  #training_table tr:nth-child(even){
+    
+    background-color: #f2f2f2;
+  }
+
+/*  images - calisthenics */
+
+.Cbg1 {
+    background-image: url("front lever.jpg");
+    float: left;
+    width: 940px;
+    height: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Cbg2 {
+    background-image: url("iron cross.jpg");
+    float: left;
+    width: 940px;
+    height: 940px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  images - Full Body */
+.Fbg {
+  background-image: url("Full_Body.jpeg");
+  height: 95%;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------------- */
+
+  #training_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #555555;
+    color: white;
+    
+  }
+  /* images - Upper Lower */
+   .Ubg1{
+    background-image: url("Lower-Lat-Anatomy-scaled.jpg");
+    float: left;
+    height: 950px;
+    width: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+   .Ubg2{
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    float: right;
+    height: 930px;
+    width: 930px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  } 
+  /* ------------- */
+   a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.importance{
+    color: #c0a179;
+    font-size: 30px;
+}
+/* images - About Us */
+.Abg{
+  background-image: url("https://wallpapercave.com/wp/wp9160535.jpg");
+   position: absolute;
+  background-size: cover;
+
+}
+.top{
+    color:#c0a179;
+
+    font-size: 40px;
+    text-align: center;
+}
+.overview{
+    color:#c0a179;
+    font-size: 30px;
+}
+
+.team_members{
+    color:#c0a179;
+
+    font-size: 30px;
+} 
+#About_Us{
+  height: 100%;
+  width: 100%;
+}
+
+  
